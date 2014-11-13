@@ -1,5 +1,5 @@
 {
-  "name": "node-rsa-keygen",
+  "name": "rsa-keygen",
   "version": "1.0.0",
   "description": "Native RSA Keygen",
   "main": "build/Release/rsa_keygen.node",
