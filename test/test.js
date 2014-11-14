@@ -38,7 +38,7 @@ describe("rsa-keygen", function() {
 
 					deciphered = crypto.privateDecrypt({
 						key: keys.private_key,
-						padding: constants.SA_PKCS1_OAEP_PADDING
+						padding: constants.RSA_PKCS1_OAEP_PADDING
 					}, ciphered);
 				});
 
