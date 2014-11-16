@@ -123,8 +123,8 @@ NAN_METHOD(Generate) {
 		NanReturnUndefined();
 	}
 
-	Local<Object> publicKey = toBuffer(publicBio);
-	Local<Object> privateKey = toBuffer(privateBio);
+	Handle<Object> publicKey = toBuffer(publicBio);
+	Handle<Object> privateKey = toBuffer(privateBio);
 
 	BIO_vfree(publicBio);
 	BIO_vfree(privateBio);
